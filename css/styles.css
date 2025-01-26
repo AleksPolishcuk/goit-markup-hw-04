@@ -443,18 +443,12 @@ img {
 }
 
 .footer-container {
-  display: block;
-  margin-right: 120px;
+  display: flex;
 }
 
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
-}
-
-.maine-footer-container {
-  display: flex;
-  align-items: baseline;
 }
 
 .social-media-text {
@@ -466,9 +460,16 @@ img {
   margin-bottom: 16px;
 }
 
+.logo-container {
+  margin-right: 120px;
+  margin-left: 0;
+}
+
 .footer-list-icons {
   display: flex;
   gap: 16px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-icon-item {
@@ -485,6 +486,11 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-social-link:hover,
