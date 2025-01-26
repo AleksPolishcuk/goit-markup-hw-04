@@ -442,7 +442,7 @@ img {
   max-width: 264px;
 }
 
-.maine-footer-container {
+.footer-container {
   display: block;
   margin-right: 120px;
 }
@@ -453,6 +453,7 @@ img {
 }
 
 .maine-footer-container {
+  display: flex;
   align-items: baseline;
 }
 
