@@ -444,6 +444,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -462,7 +463,6 @@ img {
 
 .logo-container {
   margin-right: 120px;
-  margin-left: 0;
 }
 
 .footer-list-icons {
