@@ -444,6 +444,7 @@ img {
 
 .maine-footer-container {
   display: block;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -452,12 +453,7 @@ img {
 }
 
 .maine-footer-container {
-  display: flex;
   align-items: baseline;
-  margin-right: 120px;
-}
-
-.footer-container {
 }
 
 .social-media-text {
@@ -490,10 +486,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover {
-  background-color: #31d0aa;
-}
-
+.footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
